@@ -72,6 +72,12 @@
     </Bitmaps>
   </Commands>
 
+	<!-- Custom key binding for the extension -->
+	<KeyBindings>
+		<KeyBinding guid="guidFirstExtensionPackageCmdSet" id="CommandId"
+			key1="1" mod1="CONTROL" key2="2" mod2="CONTROL" editor="guidVSStd97" />
+	</KeyBindings>
+
   <Symbols>
     <!-- This is the package guid. -->
     <GuidSymbol name="guidFirstExtensionPackage" value="{f2c1ecc4-39ee-4f98-a057-c5bee8e7e22a}" />

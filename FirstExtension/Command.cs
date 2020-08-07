@@ -101,6 +101,10 @@ namespace FirstExtension
                 OLEMSGICON.OLEMSGICON_INFO,
                 OLEMSGBUTTON.OLEMSGBUTTON_OK,
                 OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
+
+            // Open web page!!
+            VsShellUtilities.OpenSystemBrowser("https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/command-design?view=vs-2019");
+
         }
     }
 }
